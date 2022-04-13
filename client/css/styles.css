@@ -1,0 +1,295 @@
+@font-face {
+  font-family: 'OPEN';
+  src: url("../fuentes/nidus_sans/nidsans-webfont.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: OPEN;
+}
+
+#body1 {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(13%, black), to(#424251));
+  background: linear-gradient(90deg, #020024 0%, black 13%, #424251 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#body2 {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav1 {
+  height: 110px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav1 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav1 img {
+  height: 90px;
+  width: 90px;
+}
+
+.nav1 a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.nav2 {
+  height: 110px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(13%, black), to(#424251));
+  background: linear-gradient(90deg, #020024 0%, black 13%, #424251 100%);
+}
+
+.nav2 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav2 img {
+  height: 90px;
+  width: 90px;
+}
+
+.nav2 a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.adminlink {
+  background-color: blue;
+  width: 100px;
+  text-align: center;
+}
+
+header {
+  width: 80%;
+  height: 500px;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+header img {
+  /*         position: absolute;
+        z-index: -100; */
+  height: 700px;
+  /*         margin-right: 100px; */
+}
+
+.header__texts {
+  margin-right: 300px;
+}
+
+.header__texts h1 {
+  text-align: center;
+  color: white;
+  font-size: 5em;
+  text-transform: uppercase;
+  width: 100px;
+}
+
+.header__texts p {
+  color: blue;
+}
+
+.header__texts button {
+  width: 200px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+}
+
+.admin h1 {
+  font-size: 2em;
+  color: white;
+}
+
+/*MARKETPLACE PAGE*/
+.marketplace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80vw;
+  height: 80vh;
+}
+
+.marketplace__filter {
+  width: 30%;
+  height: 100%;
+  background: rgba(31, 4, 4, 0.4);
+  border: white 1px solid;
+}
+
+.marketplace__filter h1 {
+  color: white;
+  text-align: center;
+}
+
+.marketplace__filter--calidad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+
+.marketplace__filter--calidad img {
+  width: 30px;
+  height: 30px;
+}
+
+.marketplace__nfts {
+  width: 70%;
+  height: 100%;
+  background: rgba(31, 4, 4, 0.4);
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.marketplace__nfts--card {
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 300px;
+  height: 400px;
+  margin: 20px 20px;
+}
+
+.marketplace__nfts--card img {
+  height: 300px;
+  margin-left: 40px;
+}
+
+.marketplace__nfts--card h1 {
+  color: white;
+  text-align: center;
+}
+
+.marketplace__nfts--card p {
+  color: white;
+  text-align: center;
+}
+
+.robots {
+  position: absolute;
+  bottom: 0;
+}
+
+.maincont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 80%;
+  width: 80%;
+}
+
+.maincont h1 {
+  color: white;
+}
+
+.maincont form {
+  margin-top: 150px;
+}
+
+.maincont input {
+  border-radius: 40px;
+  width: 450px;
+  height: 50px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'OPEN';
+    src: url('../fuentes/nidus_sans/nidsans-webfont.ttf') ;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: OPEN;
+}
+
+#body1 {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 13%, rgba(66,66,81,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#body2 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav1 {
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div {
+        display: flex;
+        align-items: center;
+    }
+    img {
+        height: 90px;
+        width: 90px;
+    }
+    a {
+        color: white;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+}
+
+.nav2 {
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 13%, rgba(66,66,81,1) 100%);;
+    div {
+        display: flex;
+        align-items: center;
+    }
+    img {
+        height: 90px;
+        width: 90px;
+    }
+    a {
+        color: white;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+}
+.adminlink {
+    background-color: blue;
+    width: 100px;
+    text-align: center;
+}
+
+header {
+    width: 80%;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    img {
+/*         position: absolute;
+        z-index: -100; */
+        height: 700px;
+/*         margin-right: 100px; */
+    }
+}
+.header__texts {
+    margin-right: 300px;
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 5em;
+        text-transform: uppercase;
+        width: 100px;
+    }
+    p {
+        color: blue;
+    }
+    button {
+        width: 200px;
+        height: 30px;
+        background-color: blue;
+        color: white;
+    }
+}
+
+
+.admin h1 {
+    font-size: 2em;
+    color: white;
+}
+
+
+/*MARKETPLACE PAGE*/ 
+.marketplace {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 80vh;
+}
+.marketplace__filter {
+    width: 30%;
+    height: 100%;
+    background: rgba($color: #1f0404, $alpha: 0.4);
+    border: white 1px solid;
+    h1 {
+        color: white;
+        text-align: center;
+    }
+}
+.marketplace__filter--calidad {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.marketplace__nfts {
+    width: 70%;
+    height: 100%;
+    background: rgba($color: #1f0404, $alpha: 0.4);
+    border: 1px solid white;
+    display: flex;
+    align-items: flex-start;
+    &--card {
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 300px;
+        height: 400px;
+        margin: 20px 20px ;
+        img {
+            height: 300px;
+            margin-left: 40px;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        p {
+            color:white;
+            text-align: center;
+        }
+    }
+}
+
+//ADMING // 
+
+.robots {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.maincont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+    width: 80%;
+    h1 {
+        color: white;
+    }
+    form {
+        margin-top: 150px;
+    }
+    input {
+        border-radius: 40px;
+        width: 450px;
+        height: 50px;
+    }
+}
