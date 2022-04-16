@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body id="body1">
     <nav class="nav1">
-        <a href="index.html"><img src="./logo.png" alt=""></a>
+        <a href="index.html"><img src="../logo.png" alt=""></a>
         <div class="nav__links">
             <a href="#">Show Collection</a>
             <a href="market.html">Marketplace</a>
             <img src="/img/MetaMask_Fox.svg.png" alt="">
         </div>
+        <span class="accountAdd"></span>
     </nav>
     <section class="maincont">
         <h1>Upload an NFT</h1>
@@ -22,6 +23,7 @@
             <form action="submit" id="taskForm">
                 <input type="text" name="nombre" placeholder="Name">
                 <input type="text" name="meta" placeholder="MetaData URL">
+                <input type="text" name="price" placeholder="Price">
             </form>
         </div>
         <button id="submitNFT">SEND</button>
@@ -32,7 +34,7 @@
     </section> 
     <img class="robots" src="img/robots.png" alt="">
 </body>
-    <script src="../libs/@truffle/contract/dist/truffle-contract.min.js"></script>
-    <script src="main.js"></script>
-    <script src="admin.js"></script>
+<script src="../libs/@truffle/contract/dist/truffle-contract.min.js"></script>
+<script src="./scripts/main.js"></script>
+    <script src="./scripts/admin.js"></script>
 </html>

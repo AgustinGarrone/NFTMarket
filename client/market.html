@@ -5,15 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body id="body2">
     <nav class="nav2">
-        <a href="index.html"><img src="./logo.png" alt=""></a>
+        <a href="index.html"><img src="../logo.png" alt=""></a>
         <div class="nav__links">
             <a href="#">Show Collection</a>
             <a href="market.html">Marketplace</a>
+            <a href="">Swap</a>
             <img src="/img/MetaMask_Fox.svg.png" alt="">
+        </div>
+        <div class="nav__metamask">
+            <div class="nav__metamask--data">
+                <span class="accountAdd"></span>
+                <div class="nav__metamask--datatoken">
+                </div>
+            </div>
         </div>
     </nav>
 <!--    <section class="maincont">
@@ -34,29 +42,24 @@
             <hr>
             <div class="marketplace__filter--calidad">
                 <div class="1estrella">
-                    <img src="./img/favorito.png" alt="">
+                    <img src="../img/favorito.png" alt="">
                 </div>
                 <div class="2estrella">
-                    <img src="./img/favorito.png" alt="">
-                    <img src="./img/favorito.png" alt="">
+                    <img src="../img/favorito.png" alt="">
+                    <img src="../img/favorito.png" alt="">
                 </div>
                 <div class="3estrella">
-                    <img src="./img/favorito.png" alt="">
-                    <img src="./img/favorito.png" alt="">
-                    <img src="./img/favorito.png" alt="">
+                    <img src="../img/favorito.png" alt="">
+                    <img src="../img/favorito.png" alt="">
+                    <img src="../img/favorito.png" alt="">
                 </div>
             </div>
         </div>
         <div class="marketplace__nfts">
-            <div class="marketplace__nfts--card">
-                <h1>NFT</h1>
-                <img src="img/nft1.png" alt="">
-                <p>Description</p>
-            </div>
         </div>
     </section>
 </body>
-    <script src="../libs/@truffle/contract/dist/truffle-contract.min.js"></script>
-    <script src="main.js"></script>
-    <script src="market.js"></script>
+<script src="../libs/@truffle/contract/dist/truffle-contract.min.js"></script>
+<script src="./scripts/main.js"></script>
+    <script src="./scripts/market.js"></script>
 </html>

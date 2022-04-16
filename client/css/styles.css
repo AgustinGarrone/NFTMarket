@@ -58,9 +58,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .nav1 div {
@@ -92,9 +91,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   background: #020024;
   background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(13%, black), to(#424251));
   background: linear-gradient(90deg, #020024 0%, black 13%, #424251 100%);
@@ -120,9 +118,48 @@
   text-decoration: none;
 }
 
+.nav__links {
+  margin-left: 450px;
+}
+
+.nav__metamask--data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__metamask--data img {
+  height: 50px;
+  width: 50px;
+}
+
+.nav__metamask--data .coin {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
 .adminlink {
   background-color: blue;
   width: 100px;
+  text-align: center;
+}
+
+.accountAdd {
+  margin: 0;
+  background-color: black;
+  width: 450px;
+  border-radius: 30px;
+  height: 30px;
+  color: white;
   text-align: center;
 }
 
@@ -232,19 +269,34 @@ header img {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow-y: scroll;
 }
 
 .marketplace__nfts--card {
   border: 1px solid white;
   border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 300px;
   height: 400px;
   margin: 20px 20px;
+  background: black;
+  background: -webkit-gradient(linear, left top, right top, from(black), color-stop(0%, #020024), color-stop(1%, #8b8b96), color-stop(34%, #3737e3), color-stop(55%, #3232d0), to(#424251));
+  background: linear-gradient(90deg, black 0%, #020024 0%, #8b8b96 1%, #3737e3 34%, #3232d0 55%, #424251 100%);
 }
 
 .marketplace__nfts--card img {
   height: 300px;
-  margin-left: 40px;
 }
 
 .marketplace__nfts--card h1 {
@@ -255,6 +307,13 @@ header img {
 .marketplace__nfts--card p {
   color: white;
   text-align: center;
+}
+
+.marketplace__nfts--card button {
+  width: 100px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
 }
 
 .robots {

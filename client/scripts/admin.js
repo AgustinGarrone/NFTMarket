@@ -11,5 +11,5 @@ input.addEventListener("submit",e=>{
 const input=document.querySelector("#taskForm")
 const send=document.getElementById("submitNFT")
 send.addEventListener("click",()=>{
-    App.hacer(input["nombre"].value,input["meta"].value)
+    App.hacer(input["nombre"].value,input["meta"].value,input["price"].value)
 })
